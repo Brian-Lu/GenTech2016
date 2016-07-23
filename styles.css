@@ -1,0 +1,62 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #0499ff;
+}
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  background-image: url(sky.jpg);
+  background-size: cover;
+}
+.main-nav {
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+.nav li {
+  padding: 5px 10px 10px 10px;
+}
+main {
+  text-align: center;
+}
+main .profile-image {
+  border-radius: 50%;
+  border: 3px solid white;
+  height: 450 px;
+  width: 450 px;
+  margin-top: 75px;
+}
+p {
+  font-size : 30px;
+  font-family: "Courier New";
+}
+li a {
+  color: blue;
+}
+footer ul li a {
+  text-decoration: none;
+  text-indent: -9999px;
+  font-family: "Courier New";
+  font-size: 30px;
+  color: black;
+}
+footer ul {
+  list-style-type: none;
+}

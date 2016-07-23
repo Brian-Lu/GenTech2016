@@ -1,0 +1,83 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #0499ff;
+}
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  background-image: url(sky.jpg);
+  background-size: cover;
+}
+.main-nav {
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+.nav li {
+  padding: 5px 10px 10px 10px;
+}
+main {
+  text-align: center;
+}
+li a {
+  color: blue;
+}
+.tag {
+  background-color: #efefef;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+}
+
+.card {
+  display: inline-block;
+  margin: 30px;
+  padding: 50px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+}
+div p {
+  font-family: "Trebuchet MS";
+  font-size: 24px;
+}
+.skillpic {
+  width:  500px;
+  height: 350px;
+  border: 3px solid black;
+}
+div ul li {
+  font-family: "Trebuchet MS";
+  font-size: 24px;
+}
+footer ul li a {
+  text-decoration: none;
+  text-indent: -9999px;
+  font-family: "Courier New";
+  font-size: 30px;
+  color: black;
+}
+footer ul {
+  list-style-type: none;
+}
